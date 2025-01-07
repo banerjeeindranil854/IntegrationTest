@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User Profile Test" verbose="2" parallel="classes" thread-count="5">
+    <test name="fetching the test data">
+        <classes>
+            <class name="com.mtn.testRunner.UserProfileTest" />
+        </classes>
+    </test>
+
+</suite>
